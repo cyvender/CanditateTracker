@@ -27,6 +27,7 @@ const AddCandidate = () => {
             email,
             notes
         });
+        //sets are unnecessary because we are navigating and set will automatically be set to default
         setFirstName('');
         setLastName('');
         setPhone('');
