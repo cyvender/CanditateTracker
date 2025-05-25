@@ -4,8 +4,7 @@ import { useCandidateCount } from '../CandidateCountContext';
 const Layout = ({children}) => {
 
     const { pendingCount, confirmedCount, deniedCount  } = useCandidateCount();
-    console.log('pendingCount as an array:', pendingCount)
-    console.log('from layout page:', pendingCount)
+    
     return (
         <div>
             <header>
